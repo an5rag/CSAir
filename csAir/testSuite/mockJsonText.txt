@@ -1,0 +1,43 @@
+{
+	"metros" : [
+		{
+			"code" : "LON" ,
+			"name" : "London" ,
+			"country" : "UK" ,
+			"continent" : "Europe" ,
+			"timezone" : 0 ,
+			"coordinates" : {"N" : 52, "W" : 0} ,
+			"population" : 12400000 ,
+			"region" : 3
+		}
+		, {
+			"code" : "NYC" ,
+			"name" : "New York" ,
+			"country" : "US" ,
+			"continent" : "North America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 41, "W" : 74} ,
+			"population" : 22200000 ,
+			"region" : 3
+		}
+		, {
+			"code" : "ESS" ,
+			"name" : "Essen" ,
+			"country" : "DE" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 51, "E" : 7} ,
+			"population" : 589900 ,
+			"region" : 3
+		}
+	] ,
+	"routes" : [
+		{
+			"ports" : ["LON" , "NYC"] ,
+			"distance" : 5579
+		} , {
+			"ports" : ["LON" , "ESS"] ,
+			"distance" : 494
+		}
+	]
+}
