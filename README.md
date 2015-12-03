@@ -31,7 +31,8 @@ Your interface should allow the user to:
 * identifying CSAir's hub cities – the cities that have the most direct connections.
 <br>All of this information should be calculated at query time from your graph and not be hard coded into your source. Your program should be console driven, that is it should start up, prompt the user for input, and be able to perform any combination of valid operations without exiting. Also, be careful to check for invalid input. For instance, what happens when a user queries data about a city that CSAir does not fly to?
 <br><br>
-## New Requirements:
+
+New Requirements:
 <br>CEO Woodley has decided that in order to continue the development of the company, the software needs to be able to accommodate changes and be useful for travel agents. The new requirements for the software are:
 * Allow for online editing of the route network
 * Saving the route network back to disk and load new network data
